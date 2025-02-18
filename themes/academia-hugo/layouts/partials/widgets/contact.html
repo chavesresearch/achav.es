@@ -11,7 +11,20 @@
   <div class="col-12">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
-  <div class="col-md-12">
+  <div class="col-6">
+    {{ if site.Params.map }}
+    <div class="d-none">
+      <input id="map-provider" value="{{ site.Params.map }}">
+      <input id="map-lat" value="{{ site.Params.latitude }}">
+      <input id="map-lng" value="{{ site.Params.longitude }}">
+      <input id="map-dir" value="{{ site.Params.address }}">
+      <input id="map-zoom" value="{{ site.Params.zoom | default "15" }}">
+      <input id="map-api-key" value="{{ site.Params.map_api_key }}">
+    </div>
+    <div id="map"></div>
+    {{ end }}
+  </div>
+  <div class="col-md-6">
     <ul class="fa-ul" itemscope>
       {{ if and site.Params.email (not $page.Params.email_form) }}
       <li>
@@ -55,18 +68,5 @@
       {{ end }}
 
     </ul>
-  </div>
-  <div class="col-12">
-    {{ if site.Params.map }}
-    <div class="d-none">
-      <input id="map-provider" value="{{ site.Params.map }}">
-      <input id="map-lat" value="{{ site.Params.latitude }}">
-      <input id="map-lng" value="{{ site.Params.longitude }}">
-      <input id="map-dir" value="{{ site.Params.address }}">
-      <input id="map-zoom" value="{{ site.Params.zoom | default "15" }}">
-      <input id="map-api-key" value="{{ site.Params.map_api_key }}">
-    </div>
-    <div id="map"></div>
-    {{ end }}
   </div>
 </div>

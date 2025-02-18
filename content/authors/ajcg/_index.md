@@ -4,7 +4,7 @@ name: Antonio Jesús Chaves García
 avatar_image: "user-full.png"
 # Username (this should match the folder name)
 authors:
-- admin
+- ajcg
 # resume download button
 btn:
 - url : "https://sourcethemes.com/academic/docs/install/"
