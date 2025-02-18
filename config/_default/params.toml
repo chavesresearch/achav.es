@@ -67,10 +67,12 @@ appointment_url = "https://calendar.app.google/w8uRC7WJydx3SybE8"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  {icon = "envelope", icon_pack = "fas", name = "Mail Me", link = "mailto:chaves@uma.es"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://x.com/chaves_research"},
+  {icon = "linkedin", icon_pack = "fab", name = "Connect on LinkedIn", link = "https://www.linkedin.com/in/antoniochavesgarcia/"},
+  {icon = "github", icon_pack = "fab", name = "All my OSS stuff", link = "https://github.com/antoniochavesgarcia"},
+  {icon = "google-scholar", icon_pack = "ai", name = "My publications", link = "https://scholar.google.es/citations?user=FhRpdlAAAAAJ"},
+  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 

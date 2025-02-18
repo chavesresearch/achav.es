@@ -42,6 +42,6 @@ hero_media = "user-2.jpg"
   label = "Contact me"
 
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
+## My name is **Antonio Jesús Chaves García** and I'm a **Predoctoral Researcher** specializing in **AI for real-time data streams and IoT**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+I focus on developing and applying artificial intelligence techniques to process and analyse real-time data streams, particularly in IoT and industrial environments. My work involves designing scalable solutions that leverage machine learning and techniques such as federated learning to enhance data-driven decision-making in distributed systems.
