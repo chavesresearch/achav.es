@@ -35,7 +35,7 @@
 
 [[main]]
   name = "Appointments"
-  url = "tutorias/"
+  url = "portfolio/tutorias/"
   weight = 60
 
 
