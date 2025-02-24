@@ -16,20 +16,15 @@
   {{ end }}
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
 
-  {{/* MLA Style */}}
+  {{/* IEEE Style */}}
   {{ else }}
 
-  <span itemprop="author" class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" . }}
-  </span>.
-  <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>.
-  {{ if .Params.publication_short }}
-  {{- .Params.publication_short | markdownify -}},
-  {{ else if .Params.publication }}
-  {{- .Params.publication | markdownify -}},
-  {{ end }}
-  {{- .Date.Format "2006" -}}.
+  <span itemprop="author" class="article-metadata li-cite-author">{{ partial "page_metadata_authors" . }},</span>
+  <a href="{{ .RelPermalink }}" itemprop="name">{{ .Title }}</a>,
+  {{ .Params.journal }} {{ .Params.volume }} ({{- .Date.Format "2006" -}}) {{ .Params.pages }}
+  
   <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
 
   {{ end }}
+
 </div>
