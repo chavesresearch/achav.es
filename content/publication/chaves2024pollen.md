@@ -11,8 +11,12 @@ authors:
 - M. Mar Trigo
 - A. Picornell
 
-date: "2024-02-01T00:00:00Z"
+date: "2023-12-20T00:00:00Z"
 doi: "10.1007/s12145-023-01189-z"
+
+journal: "Earth Science Informatics"
+volume: "vol. 17"
+pages: "699–710"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-02-01T00:00:00Z"

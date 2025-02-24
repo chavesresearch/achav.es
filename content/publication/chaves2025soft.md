@@ -13,9 +13,9 @@ authors:
 date: "2025-01-03T00:00:00Z"
 doi: "10.1016/j.jocs.2024.102522"
 
-journal: "Internet of Things"
-volume: "25"
-pages: "101036-141241"
+journal: "Journal of Computational Science"
+volume: "vol. 85"
+pages: "102522"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-02-01T00:00:00Z"
