@@ -8,7 +8,9 @@
     {{- if gt $index 0 }}, {{ end -}}
     <span itemprop="author name" itemtype="http://schema.org/Person">
       {{- with $profile_page -}}
-        <a href="{{.RelPermalink}}">{{$name}}</a>
+        <!-- <a href="{{.RelPermalink}}">{{$name}}</a> -->
+        {{$name}}
+        <!-- CHANGED BY ME -->
       {{- else -}}
         {{$name}}
       {{- end -}}

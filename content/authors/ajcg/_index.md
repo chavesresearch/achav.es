@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Predoctoral Researcher
+role: Predoctoral Researcher 
 
 # Organizations/Affiliations
 organizations:
@@ -22,27 +22,27 @@ organizations:
   url: "https://www.uma.es/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include artificial intelligence on streaming data, federated learning and IoT.
 
 # Should the user's education and interests be displayed?
 display_education: false
 
 interests:
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Federated Learning
+- Internet of Things
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Computer Science
+    institution: University of Málaga
+    year: 2026
+  - course: MSc in Software Engineering & Artificial Intelligence
+    institution: University of Málaga
+    year: 2022
+  - course: BSc in Computer Science Engineering
+    institution: University of Málaga
+    year: 2021
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -54,13 +54,13 @@ social:
   link: 'mailto:chaves@uma.es'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/chaves_research
+  link: https://twitter.com/chavesresearch
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/antoniochavesgarcia/
+  link: https://www.linkedin.com/in/chavesresearch/
 - icon: github
   icon_pack: fab
-  link: https://github.com/antoniochavesgarcia
+  link: https://github.com/chavesresearch
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.es/citations?user=FhRpdlAAAAAJ
