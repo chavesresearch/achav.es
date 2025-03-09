@@ -40,7 +40,7 @@ tags:
 featured: true
 
 links:
-- name: DOI
-  url_doi: https://doi.org/10.1109/BigData62323.2024.10826034
+- name: PDF File
+  url: files/chaves2024federated.pdf
 
 ---

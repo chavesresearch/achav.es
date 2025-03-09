@@ -39,9 +39,9 @@ tags:
 - Open-Source Software
 - Machine Learning
 
-featured: true
+featured: false
 
 links:
 - name: PDF File
-  url: https://riuma.uma.es/xmlui/bitstream/handle/10630/28773/s12145-023-01189-z%20(1).pdf
+  url: files/chaves2023pollen.pdf
 ---

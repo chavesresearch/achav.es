@@ -45,5 +45,5 @@ featured: true
 
 links:
 - name: PDF File
-  url: https://riuma.uma.es/xmlui/bitstream/handle/10630/36883/1-s2.0-S1877750324003156-main.pdf
+  url: files/chaves2025soft.pdf
 ---

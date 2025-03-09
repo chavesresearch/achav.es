@@ -38,6 +38,6 @@ featured: true
 
 links:
 - name: PDF File
-  url_pdf: https://www.sciencedirect.com/science/article/pii/S2542660523003591
+  url: files/chaves2024towards.pdf
 
 ---

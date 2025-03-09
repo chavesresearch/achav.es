@@ -38,6 +38,5 @@ featured: true
 
 links:
 - name: PDF File
-  url_pdf: https://doi.org/10.1111/exsy.13287
-
+  url: files/chaves2024orchestration.pdf
 ---

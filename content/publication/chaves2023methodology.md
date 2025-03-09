@@ -32,4 +32,10 @@ isbn: "978-3-031-33808-3"
 
 abstract: Advances in the Internet-of-Things (IoT) field have allowed a wide variety of devices to be connected and send information continuously to the Internet. Thanks to this increase in data communication, machine learning (ML) and data science have been able to be applied to analyze and extract valuable intelligence from the IoT. In this sense, the IoT has also contributed to improving the design and implementation of soft sensors. Soft sensors are used to predict features that are difficult to measure directly because the sensor to do so does not exist or is very expensive. IoT real-time monitoring can be used in conjunction with ML techniques to infer those parameters that are difficult to achieve with specific sensors. There exist methodologies for the development of soft sensors, but there is a lack of a common tool to support the design and implementation of them, covering the phases from model training to visualization of predictions. In this chapter, we present a methodology to support soft-sensor development based on Kafka-ML, an open-source fram
 
+featured: false
+
+links:
+- name: PDF File
+  url: files/chaves2023methodology.pdf
+
 ---
