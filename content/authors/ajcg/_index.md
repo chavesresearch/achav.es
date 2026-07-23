@@ -54,7 +54,7 @@ social:
   link: 'mailto:chaves@uma.es'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/chavesresearch
+  link: https://x.com/chavesresearch
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/chavesresearch/
