@@ -1,9 +1,8 @@
 #!/bin/bash
 
 # default versions
-NODE_VERSION='18.16.1';
-GO_VERSION='1.22.2';
-HUGO_VERSION='0.124.1';
+NODE_VERSION='24.18.0';
+HUGO_VERSION='0.164.0';
 
 # install Node.js
 # echo "Installing Node.js $NODE_VERSION..."
@@ -13,14 +12,6 @@ HUGO_VERSION='0.124.1';
 # rm -rf node-v${NODE_VERSION}.tar.gz
 
 echo "USING NODE VERSION: $(node -v)"
-
-# install Go
-echo "Installing Go $GO_VERSION..."
-curl -sSOL https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz
-tar -C /usr/local -xzf go${GO_VERSION}.linux-amd64.tar.gz
-export PATH=$PATH:/usr/local/go/bin
-rm -rf go${GO_VERSION}.linux-amd64.tar.gz
-go version
 
 # install Hugo
 echo "Installing Hugo $HUGO_VERSION..."
