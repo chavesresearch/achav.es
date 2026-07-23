@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
-subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
+subtitle = "Research and professional experience"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   date_start = "2024-03-15"
   date_end = "2024-06-12"
   description = """
-  Describe blockchain tasks at evolve project and the paper published at DC, USA
+  Research secondment focused on integrating blockchain with federated learning for reliable, decentralized model training over data streams. This work led to the paper "Federated Learning Meets Blockchain: A Kafka-ML Integration for reliable model training using data streams," presented at the IEEE International Conference on Big Data 2024 in Washington, D.C., USA.
   """
 
 [[experience]]
@@ -65,7 +65,7 @@ date_format = "Jan 2006"
   * Analysis of biological samples using Computer Vision libraries and techniques.
   * Sensor deployment for data collection.
   * Extended "Kafka-ML" application support to new Deep Learning frameworks.
-  * Data analysis and ML models development to predict hard-to-measure variables in natural environments and Industry 4.0
+  * Data analysis and ML models development to predict hard-to-measure variables in natural environments and Industry 4.0 settings.
   """
 
 [[experience]]

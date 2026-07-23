@@ -55,10 +55,10 @@ time_format = "15:04"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "chaves@uma.es"
 phone = "951 95 29 30"
-address = "A.1.1, Ada Byron Research Centre, 18 Arquitecto Francisco Peñalosa St. 29010, Malaga, Spain"
+address = "A.1.1, Ada Byron Research Centre, 18 Arquitecto Francisco Peñalosa St., 29010 Málaga, Spain"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Generally available Monday to Friday, 9:00–14:00, with limited hours on Monday and Wednesday."""
+office_hours = """Monday to Friday, 9:00–14:00."""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 # appointment_url = "https://calendar.app.google/w8uRC7WJydx3SybE8"
