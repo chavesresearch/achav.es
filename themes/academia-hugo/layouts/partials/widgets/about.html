@@ -21,7 +21,7 @@
   <div class="col-lg-5">
     <div id="profile">
       {{ $avatar_image := .page.Params.avatar_image }}
-      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="Avatar">
+      <img class="img-fluid" src="{{ printf "img/%s" $avatar_image | relURL }}" itemprop="image" alt="{{ $person.name }}">
     </div>
     <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
       {{ range $person.social }}
@@ -50,7 +50,7 @@
 
     <div class="portrait-title">
       <h2 itemprop="name">{{ $person.name }}</h2>
-      {{ with $person.role }}<h3 class="d-inline-block" itemprop="jobTitle">{{ . | markdownify | emojify }},</h3>{{ end }}
+      {{ with $person.role }}<h3 class="d-inline-block" itemprop="jobTitle">{{ . | markdownify | emojify }},&nbsp;</h3>{{ end }}
 
       {{ range $person.organizations }}
       <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
