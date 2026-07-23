@@ -18,6 +18,9 @@ copyright = "Copyright &copy; {year}"
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "#####" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 
+# Generate a robots.txt (see layouts/robots.txt).
+enableRobotsTXT = true
+
 ############################
 ## Advanced options below ##
 ############################
