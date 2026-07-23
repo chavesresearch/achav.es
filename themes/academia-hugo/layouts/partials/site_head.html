@@ -197,6 +197,13 @@
 
   {{ partial "custom_head" . }}
 
+  {{/* WebSite structured data: the strongest signal search engines use to pick the site name
+       shown in results, taking priority over og:site_name and the raw domain. */}}
+  {{ if .IsHome }}
+  {{ $website_ld := dict "@context" "https://schema.org" "@type" "WebSite" "name" ($superuser_name | default site.Title) "url" site.BaseURL }}
+  <script type="application/ld+json">{{ $website_ld | jsonify | safeJS }}</script>
+  {{ end }}
+
   <title>{{ if and (not .IsHome) .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 
 </head>
