@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Purple"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#6d28d9"
+
+# Menu
+menu_primary = "#2e1065"
+menu_text = "rgba(255,255,255,0.75)"
+menu_text_active = "#c4b5fd"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 244, 252)"
