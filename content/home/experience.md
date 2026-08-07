@@ -31,6 +31,17 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Exchange PhD Student"
+  company = "Ghent University - imec (IDLab)"
+  company_url = "https://idlab.ugent.be/"
+  location = "Ghent, Belgium"
+  date_start = "2025-08-31"
+  date_end = "2025-10-30"
+  description = """
+  Research secondment at IDLab (imec), Ghent University, investigating model compression techniques for TinyML, with the aim of minimizing the memory and computational footprint of on-device neural networks while preserving predictive performance within negligible degradation margins.
+  """
+
+[[experience]]
+  title = "Exchange PhD Student"
   company = "Yonsei University - DCL Lab"
   company_url = "https://ee.yonsei.ac.kr/ee_en/research/lab.do"
   location = "Seoul, South Korea"
