@@ -617,3 +617,12 @@ ul.ul-edu li .description p.institution {
   height: 350px;
   width: 100%;
 }
+
+.dark #map {
+  filter: invert(92%) hue-rotate(180deg) brightness(0.95) contrast(0.9);
+}
+
+.dark #map .leaflet-marker-icon,
+.dark #map .leaflet-popup {
+  filter: invert(92%) hue-rotate(180deg);
+}
