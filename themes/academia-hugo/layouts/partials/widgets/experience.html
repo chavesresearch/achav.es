@@ -12,7 +12,16 @@
 
     {{ if $page.Params.experience }}
     {{ $exp_len := len $page.Params.experience }}
-    {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+    {{/* Ongoing entries (no date_end) always rank first, so a longer-running
+         current position isn't pushed below a shorter secondment that started
+         more recently within it. */}}
+    {{ $exp_sortable := slice }}
+    {{ range $page.Params.experience }}
+      {{ $sort_key := .date_start }}
+      {{ if not .date_end }}{{ $sort_key = "9999-12-31" }}{{ end }}
+      {{ $exp_sortable = $exp_sortable | append (merge . (dict "sort_key" $sort_key)) }}
+    {{ end }}
+    {{ range $idx, $key := sort $exp_sortable ".sort_key" "desc" }}
     <div class="row experience">
       <!-- Timeline -->
       <div class="col-auto text-center flex-column d-none d-sm-flex">
