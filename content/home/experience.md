@@ -25,8 +25,9 @@ date_format = "Jan 2006"
   location = "Málaga, Spain"
   date_start = "2025-01-30"
   description = """
-  Teaching tasks in Bachelor of Computer Science Engineering since 2025:
-  * Introduction to Software Engineering
+  Teaching duties undertaken as part of the FPU Fellowship:
+  * Introduction to Software Engineering — BSc in Software Engineering (2024/25)
+  * Software Engineering — BSc in Telematics Engineering (2025/26)
   """
 
 [[experience]]
