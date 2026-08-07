@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Academic"
+
+# Optional Google font URL
+google_fonts = "Playfair+Display:400,600,700,400italic,700italic|Open+Sans:400,600,700|Roboto+Mono"
+
+# Font families
+heading_font = "Playfair Display"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"
