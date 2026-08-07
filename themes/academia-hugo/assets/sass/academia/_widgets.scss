@@ -355,6 +355,22 @@ a.hero-cta-alt:hover {
   margin: 0px 0 10px 0;
 }
 
+.portrait-motto {
+  font-family: $sta-font-heading, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .6);
+  border-left: 3px solid $sta-primary;
+  padding-left: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.dark .portrait-motto {
+  color: rgba(255, 255, 255, .65);
+  border-left-color: $sta-primary-light;
+}
+
 ul.network-icon {
   list-style-type: none;
   padding: 0;

@@ -63,7 +63,9 @@
 
     <link itemprop="url" href="{{ .Permalink }}">
 
-
+    {{ with $person.bio }}
+    <p class="portrait-motto">&ldquo;{{ . | markdownify | emojify }}&rdquo;</p>
+    {{ end }}
 
     {{ $person_page.Content }}
     {{ range $person.btn }}
